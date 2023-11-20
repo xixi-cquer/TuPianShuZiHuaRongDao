@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "gameability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "gameability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_GameAbility",
+      "value": "entry_GameAbility"
+    },
+    {
+      "name": "tupianability_description",
+      "value": "hap sample empty provider"
+    }
+  ]
+}

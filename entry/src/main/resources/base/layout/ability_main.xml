@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical"
+    ohos:background_element="$media:mainbackground">
+
+    <Text
+        ohos:id="$+id:text_helloworld"
+        ohos:height="match_content"
+        ohos:width="600"
+        ohos:text="开始游戏"
+        ohos:text_size="40vp"
+        ohos:top_margin="50fp"
+        ohos:alpha="0.6"
+        ohos:background_element="$graphic:btnbackground"
+        ohos:text_alignment="center"/>
+
+</DirectionalLayout>

@@ -1,0 +1,62 @@
+{
+  "app": {
+    "bundleName": "com.example.pintu",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "com.example.pintu",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.pintu.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "name": "com.example.pintu.MainAbility",
+        "description": "$string:mainability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_MainAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      },
+      {
+        "name": "com.example.pintu.GameAbility",
+        "description": "$string:gameability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_GameAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "type": "page"
+      }
+    ],
+    "defPermissions": [
+      {
+        "name": "com.example.pintu.DataAbilityShellProvider.PROVIDER"
+      }
+    ]
+  }
+}
